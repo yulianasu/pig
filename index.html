@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Плюш клуб — место для улыбок</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Nunito:wght@700;900&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+  <header class="header">
+    <a class="logo" href="#top">ПЛЮШ<span>♡</span><br>КЛУБ<small>МЕСТО ДЛЯ УЛЫБОК</small></a>
+    <nav class="nav" aria-label="Главное меню">
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#visit">В гости</a>
+    </nav>
+    <div class="actions">
+      <span class="heart" aria-hidden="true">♡</span>
+      <a class="join" href="#visit">Вступить в клуб</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="top">
+      <svg class="orbits" viewBox="0 0 480 480" aria-hidden="true">
+        <g fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="1.2">
+          <ellipse cx="240" cy="230" rx="195" ry="125" transform="rotate(-24 240 230)" />
+          <ellipse cx="240" cy="230" rx="195" ry="125" transform="rotate(32 240 230)" />
+          <circle cx="210" cy="230" r="153" stroke-dasharray="4 8" />
+          <path d="M30 360 C110 430 235 430 390 300" />
+        </g>
+        <g fill="#ffd8e8">
+          <circle cx="79" cy="185" r="4" />
+          <circle cx="378" cy="162" r="5" />
+          <path d="M362 64 l3 9 9 3-9 3-3 9-3-9-9-3 9-3z" />
+        </g>
+      </svg>
+      <div class="hero-copy">
+        <span class="tag">✦ Уютный клуб для мини-пигов</span>
+        <h1>Счастье<br>любит <em>хрюкать.</em></h1>
+        <p>Обнимайтесь с мини-пигами, пейте зефирный какао и забудьте о стрессе в самом милом месте планеты.</p>
+        <a class="btn" href="#visit">Стать участником ♡</a>
+      </div>
+      <div class="polaroid-group">
+        <div class="polaroid">
+          <img src="pig.png" alt="Плюша">
+          <span>Свинки ♡</span>
+        </div>
+        <div class="polaroid">
+          <img src="child.png" alt="Молли">
+          <span>♡</span>
+        </div>
+      </div>
+      <div class="drink-card">
+        <small>НАПИТОК МЕСЯЦА</small>
+        <img src="pngtree-classic-cocoa-with-marshmallows-and-cinnamon-for-a-warm-touch-png-image_14101194.png" alt="Какао">
+        <strong>Облачное какао</strong><br>
+        <small>С зефирками · 490 ₽</small>
+      </div>
+      <div class="pig-container">
+        <img id="pigImage" class="pig-image" src="pig-center.png" alt="Милая розовая свинка">
+      </div>
+    </section>
+    <div class="lower-content">
+      <div class="bg-glow" aria-hidden="true"></div>
+      <div class="container">
+        <section class="about-section" id="about">
+          <div class="about-content">
+            <span class="about-title-tag">Немного о нас ♡</span>
+            <h2>Место, где можно просто выдохнуть.</h2>
+          </div>
+          <div class="about-text">
+            <p><strong>Плюш клуб</strong> — вымышленное уютное кафе для тех, кто любит неспешные разговоры, мягкие булочки и чуть-чуть волшебства в обычном дне.</p>
+            <p>Наша хозяйка Плюша убеждена: к любому дню можно добавить щепотку радости. Оставайтесь на чашечку чего-нибудь вкусного и знакомьтесь с нашим маленьким миром хорошего настроения.</p>
+          </div>
+        </section>
+        <section id="menu">
+          <div class="menu-header">
+            <div class="badge-top">ПЛЮШИНЫ ЛЮБИМЧИКИ ♡</div>
+            <h2>Крошки счастья</h2>
+            <p class="subtitle">Небольшое меню для больших улыбок.</p>
+          </div>
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="icon-wrapper" aria-hidden="true">☕</div>
+              <h3>Облачное какао</h3>
+              <p>С зефирками и хорошим настроением.</p>
+              <div class="price-tag">490 ₽</div>
+            </article>
+            <article class="menu-card">
+              <div class="icon-wrapper" aria-hidden="true">🥐</div>
+              <h3>Розовая булочка</h3>
+              <p>Нежная, сладкая и почти как объятие.</p>
+              <div class="price-tag">380 ₽</div>
+            </article>
+            <article class="menu-card">
+              <div class="icon-wrapper" aria-hidden="true">🍓</div>
+              <h3>Ягодное настроение</h3>
+              <p>Клубника и лето в каждом глотке.</p>
+              <div class="price-tag">450 ₽</div>
+            </article>
+          </div>
+        </section>
+        <footer class="footer" id="visit">
+          <div class="badge-top">УЖЕ ЖДЁМ ТЕБЯ ♡</div>
+          <h2>До встречи у Плюши!</h2>
+          <p>Это демонстрационный сайт вымышленного кафе. Заглядывай за улыбкой в любое время.</p>
+          <a href="#top" class="btn-top">Наверх
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6" /></svg>
+          </a>
+          <div class="copyright">© Плюш клуб · Сделано с любовью и хрю ♡</div>
+        </footer>
+      </div>
+    </div>
+
+   <!-- Скрипты -->
+    <script src="main.js"></script>
+</body>
+</html>
